@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manipal University Jaipur — Student Project Website</title>
+  <meta name="description"
+    content="A coursework website (HTML &amp; CSS) modelled on Manipal University Jaipur, built for an MCA web-development assignment.">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar__contact">
+        <a href="tel:18001020128">Toll-free 1800-102-0128</a>
+        <a href="mailto:admissions@jaipur.manipal.edu">admissions@jaipur.manipal.edu</a>
+      </div>
+      <div class="topbar__social" aria-label="Social media links">
+        <a href="https://www.facebook.com/manipal.university/" aria-label="Facebook">FB</a>
+        <a href="https://twitter.com/Jaipur_Manipal" aria-label="Twitter / X">X</a>
+        <a href="https://www.instagram.com/jaipurmanipal/" aria-label="Instagram">IG</a>
+        <a href="https://www.linkedin.com/school/9221393" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-row">
+      <a href="index.html">
+        <img src="./img/logo.svg" alt="Manipal University Jaipur logo" class="brand__logo" aria-hidden="true">
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></label>
+
+      <nav class="nav-menu" aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn btn--primary" href="admissions.html"><span class="long">Apply</span> Now</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="ticker" role="marquee" aria-label="Announcements">
+    <div class="ticker__track">
+      <span>Admissions open for UG &amp; PG programmes through CUET 2026</span>
+      <span>12th Convocation held on 15–16 November 2025</span>
+      <span>Applications invited for the Post-Doctoral Fellowship Programme</span>
+      <span>Orientation Programme 2026 schedule now live</span>
+      <span>Applications open for PhD admissions — interviews in progress</span>
+      <!-- duplicated for a seamless loop -->
+      <span>Admissions open for UG &amp; PG programmes through CUET 2026</span>
+      <span>12th Convocation held on 15–16 November 2025</span>
+      <span>Applications invited for the Post-Doctoral Fellowship Programme</span>
+      <span>Orientation Programme 2026 schedule now live</span>
+      <span>Applications open for PhD admissions — interviews in progress</span>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero__copy">
+          <p class="hero__kicker">Manipal University Jaipur</p>
+          <h1>Seventy-one years of Manipal legacy, shaping Jaipur's most ambitious minds.</h1>
+          <p class="hero__lede">Part of the Manipal Education and Medical Group, MUJ brings engineering, architecture,
+            design, law, management, media and the health sciences together on a 122-acre campus off the Jaipur–Ajmer
+            Expressway.</p>
+          <div class="hero__actions">
+            <a href="academics.html" class="btn btn--gold">Explore Programmes</a>
+            <a href="admissions.html" class="btn btn--ghost-invert">Apply for 2026 Intake</a>
+          </div>
+        </div>
+        <div class="stat-tiles">
+          <div class="stat-tile"><b>71</b><span>Years of Manipal legacy</span></div>
+          <div class="stat-tile"><b>14,000+</b><span>Students on campus</span></div>
+          <div class="stat-tile"><b>700+</b><span>Faculty members</span></div>
+          <div class="stat-tile"><b>30+</b><span>Departments, 9 schools</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BAND ============ -->
+    <section class="section--tight">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <h2>Admissions open for 2026–27</h2>
+            <p style="color:rgba(255,255,255,.85)">UG and PG applications are being accepted through CUET and direct
+              routes.</p>
+          </div>
+          <div class="hero__actions">
+            <a href="admissions.html" class="btn btn--gold">Start your application</a>
+            <a href="tel:18001020128" class="btn btn--ghost-invert">Call 1800-102-0128</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a href="index.html">
+          <img src="./img/logo.svg" alt="Manipal University Jaipur logo" class="brand__logo">
+        </a>
+        <p style="margin-top:1rem">Dehmi Kalan, near GVK Toll Plaza, off the Jaipur–Ajmer Expressway, Jaipur, Rajasthan
+          303007.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/manipal.university/" aria-label="Facebook">FB</a>
+          <a href="https://twitter.com/Jaipur_Manipal" aria-label="Twitter / X">X</a>
+          <a href="https://www.instagram.com/jaipurmanipal/" aria-label="Instagram">IG</a>
+          <a href="https://www.youtube.com/channel/UCFbeX4UJyd4fHTCnCVGob_Q" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div>
+        <h4>Academics</h4>
+        <ul>
+          <li><a href="academics.html">Programmes list</a></li>
+          <li><a href="academics.html#fosta">Faculty of Science, Tech &amp; Architecture</a></li>
+          <li><a href="academics.html#fomca">Faculty of Management, Commerce &amp; Arts</a></li>
+          <li><a href="academics.html#fol">Faculty of Law</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Admissions</h4>
+        <ul>
+          <li><a href="admissions.html">How to apply</a></li>
+          <li><a href="admissions.html#eligibility">Eligibility</a></li>
+          <li><a href="admissions.html#dates">Important dates</a></li>
+          <li><a href="admissions.html#faq">Admission FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>University</h4>
+        <ul>
+          <li><a href="about.html">About MUJ</a></li>
+          <li><a href="about.html#timeline">Our history</a></li>
+          <li><a href="about.html#values">Vision &amp; values</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reach us</h4>
+        <ul>
+          <li><a href="tel:18001020128">1800-102-0128 (toll-free)</a></li>
+          <li><a href="tel:01413999100">0141-3999100</a></li>
+          <li><a href="mailto:admissions@jaipur.manipal.edu">admissions@jaipur.manipal.edu</a></li>
+          <li><a href="https://wa.me/918306248211">WhatsApp +91 83062 48211</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Manipal University Jaipur — recreated for coursework purposes.</span>
+      <span>Design &amp; build: <a href="https://harshilprajapati.com" target="_blank">Harshil Prajapati</a></span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
