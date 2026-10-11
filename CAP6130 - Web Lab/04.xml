@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE library SYSTEM "catalog.dtd">
+<library>
+<book genre="fiction"><title>The Alchemist</title><author>Paulo Coelho</author><year>1988</year><price>299</price></book>
+<book genre="tech"><title>Learning PHP</title><author>David Sklar</author><year>2016</year><price>550</price></book>
+<book genre="history"><title>Discovery of India</title><author>J. Nehru</author><year>1946</year><price>350</price></book>
+<book genre="fiction"><title>Godan</title><author>Premchand</author><year>1936</year><price>200</price></book>
+<book genre="tech"><title>Clean Code</title><author>Robert Martin</author><year>2008</year><price>700</price></book>
+</library>

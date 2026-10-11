@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cards</title>
+  <style>
+    .row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap
+    }
+
+    .card {
+      flex: 1;
+      padding: 50px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px #999;
+      text-align: center;
+      transition: .3s
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 20px #555;
+      transform: scale(1.05)
+    }
+
+    .card img {
+      width: 200px;
+    }
+
+    .box {
+      background: yellow;
+      border-radius: 15px;
+      padding: 15px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .box h2 {
+      color: blue
+    }
+
+    .box p {
+      color: red
+    }
+
+    @media(max-width:600px) {
+      .row {
+        flex-direction: column
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="row">
+    <div class="card"><img src="./IMG/mac-mini.png">
+      <h3>Mac Mini</h3>
+      <p>80000</p><button>Buy Now</button>
+    </div>
+    <div class="card"><img src="./IMG/macbook.png">
+      <h3>Laptop</h3>
+      <p>90000</p><button>Buy Now</button>
+    </div>
+  </div>
+  <div class="box"><img src="./IMG/mac-pro.png" width="300">
+    <h2>Heading in Blue</h2>
+    <p>Paragraph in red.</p>
+  </div>
+</body>
+
+</html>

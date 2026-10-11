@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Timetable</title>
+  <style>
+    .wrap {
+      overflow-x: auto
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center
+    }
+
+    th,
+    td {
+      border: 1px solid #333;
+      padding: 8px
+    }
+
+    thead {
+      background: #4a90d9;
+      color: #fff
+    }
+
+    tbody tr:nth-child(even) {
+      background: #eef
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <table>
+      <caption>Weekly Class Timetable</caption>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>P1</th>
+          <th>P2</th>
+          <th>P3</th>
+          <th>P4</th>
+          <th>P5</th>
+          <th>P6</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mon</td>
+          <td>Web</td>
+          <td>Java</td>
+          <td colspan="2">Web Lab</td>
+          <td>DBMS</td>
+          <td>Maths</td>
+        </tr>
+        <tr>
+          <td>Tue</td>
+          <td rowspan="2">Maths</td>
+          <td>Web</td>
+          <td>Java</td>
+          <td>DBMS</td>
+          <td>Java</td>
+          <td>Web</td>
+        </tr>
+        <tr>
+          <td>Wed</td>
+          <td>DBMS</td>
+          <td colspan="2">Java Lab</td>
+          <td>Web</td>
+          <td>Maths</td>
+        </tr>
+        <tr>
+          <td>Thu</td>
+          <td>Java</td>
+          <td>Web</td>
+          <td>Maths</td>
+          <td>DBMS</td>
+          <td colspan="2">DBMS Lab</td>
+        </tr>
+        <tr>
+          <td>Fri</td>
+          <td>Web</td>
+          <td>Java</td>
+          <td>DBMS</td>
+          <td>Maths</td>
+          <td>Java</td>
+          <td>Sports</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

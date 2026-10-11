@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Products</title>
+  <style>
+    body {
+      display: flex;
+      gap: 20px;
+      font-family: Arial
+    }
+
+    .card {
+      width: 200px;
+      padding: 15px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px #888
+    }
+
+    img {
+      width: 100%
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card"><img src="IMG/macbook.png">
+    <h3>Mac Book</h3>
+    <p>₹<span id="p0">100000</span></p>
+    <button onclick="change(0,100)">Increase</button> <button onclick="change(0,-100)">Decrease</button>
+  </div>
+  <div class="card"><img src="IMG/mac-mini.png">
+    <h3>Mac mini</h3>
+    <p>₹<span id="p1">80000</span></p>
+    <button onclick="change(1,1000)">Increase</button> <button onclick="change(1,-1000)">Decrease</button>
+  </div>
+  <div class="card"><img src="IMG/mac-pro.png">
+    <h3>Mac Pro</h3>
+    <p>₹<span id="p2">2000000</span></p>
+    <button onclick="change(2,10000)">Increase</button> <button onclick="change(2,-10000)">Decrease</button>
+  </div>
+  <script>
+    function change(i, amt) {
+      var e = document.getElementById("p" + i), old = +e.innerText;
+      e.innerText = old + amt;
+    }
+  </script>
+</body>
+
+</html>

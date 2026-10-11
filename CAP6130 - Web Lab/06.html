@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Factorial</title>
+</head>
+
+<body>
+  <h2>Factorial Calculator</h2>
+  <input type="number" id="n" min="0" placeholder="Enter a number">
+  <button onclick="fact()">Calculate</button>
+  <h3 id="out"></h3>
+  <script>
+    function fact() {
+      var n = document.getElementById("n").value, f = 1;
+      if (n === "" || n < 0) { out.innerText = "Enter a non-negative number"; return; }
+      for (var i = 2; i <= n; i++) f *= i;
+      out.innerText = "Factorial of " + n + " = " + f;
+    }
+  </script>
+</body>
+
+</html>
